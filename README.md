@@ -113,3 +113,42 @@ Use Cases:
 •	Process payment
 
 ![Booking System Use Case Diagram](./alx-booking-uc.png)
+
+
+# Acceptance Criteria.
+
+Importance of Acceptance Criteria in Requirement Analysis
+Acceptance Criteria are specific, measurable conditions that a software feature must meet to be considered complete and acceptable by stakeholders. They play a critical role in Requirement Analysis by serving as a bridge between business needs and technical implementation.
+
+Why Acceptance Criteria Are Important:
+1.	Clarity of Expectations
+Acceptance criteria ensure that all stakeholders — developers, testers, and business analysts — have a shared understanding of what success looks like for a feature.
+2.	Scope Control
+They help define the boundaries of a feature, reducing ambiguity and preventing scope creep.
+3.	Basis for Testing
+Acceptance criteria provide a clear reference for creating test cases and conducting user acceptance testing (UAT).
+4.	Improves Communication
+They encourage collaborative conversations between the team and stakeholders early in the development cycle.
+5.	Definition of Done (DoD)
+They act as a checklist that confirms when a feature is truly complete, both in functionality and quality.
+
+Example: Acceptance Criteria for the Checkout Feature in a Booking Management System
+Feature: Checkout (booking confirmation with payment)
+Acceptance Criteria:
+1.	Given the user has selected a room and entered guest details,
+When they click the “Proceed to Payment” button,
+Then they should be redirected to the secure payment gateway.
+2.	Given the payment is successful,
+When the system receives the payment confirmation,
+Then a booking confirmation number must be generated and emailed to the user.
+3.	Given the booking is confirmed,
+When the user checks their booking history,
+Then the new booking should appear with the correct details.
+4.	Given the payment fails,
+When the user returns to the booking page,
+Then an error message must be shown and the room should not be marked as booked.
+5.	Given a user tries to confirm a booking without required fields,
+When they click “Proceed to Payment”,
+Then a validation error should appear highlighting the missing fields.
+
+
